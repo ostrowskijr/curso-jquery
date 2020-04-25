@@ -1,0 +1,65 @@
+.campo-digitacao{
+  font-size: 20px;
+  height: 130px;
+  border: 3px solid black;
+}
+
+.frase{
+  font-size: 20px;
+}
+
+.campo-desativado{
+  background-color: lightgray;
+}
+
+.icones {
+  vertical-align: middle;
+}
+
+.borda-verde{
+  border: 3px solid green;
+}
+
+.borda-vermelha{
+  border: 3px solid red;
+}
+
+/* Propriedade display serve para esconder ou mostrar um elemento no nosso html. none = esconder, block = mostrar. */
+.placar{
+  display: none;
+}
+
+.select-usuarios{
+  display: inline-block;
+}
+
+#usuarios{
+  display: inline-block;
+}
+
+.selectize-input{
+  width: 200px;
+  vertical-align: middle;
+}
+
+/* Propriedade overflow:scroll serve para apresentar por padrão a barra de rolagem na página. */
+body{
+  overflow: scroll;
+}
+
+#erro {
+  color: red;
+  display: none;
+}
+
+#spinner{
+  display: none;
+}
+
+#frase-id {
+  width: 40px;
+}
+
+#botao-sync {
+  float: right;
+}
